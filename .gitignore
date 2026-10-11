@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data and generated outputs
+data/raw/*.csv
+data/cleaned/
+*.xlsx
+*.csv
+
+# Power BI files may embed underlying data; review permissions before sharing
+*.pbix
+*.pbit
+*.pbix.lock
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
